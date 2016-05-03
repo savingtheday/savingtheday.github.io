@@ -11,6 +11,17 @@ body{
   background-size:100px 50px;*/
 }
 
+a:visited{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
 
 header{
   width: 100%;
