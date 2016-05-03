@@ -1,0 +1,329 @@
+body{
+  font-size: 17px;
+  color: #282828;
+  background-color:#f6f3ea;
+/*  background-image:
+  radial-gradient(circle at 100% 150%, #f6eeea 24%, white 25%, white 28%, #f6eeea 29%, #f6eeea 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, #f6eeea 24%, white 25%, white 28%, #f6eeea 29%, #f6eeea 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, #f6eeea 11%, #f6eeea 23%, white 24%, white 30%, #f6eeea 31%, #f6eeea 43%, white 44%, white 50%, #f6eeea 51%, #f6eeea 63%, white 64%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, #f6eeea 6%, #f6eeea 15%, white 16%, white 20%, #f6eeea 21%, #f6eeea 30%, white 31%, white 35%, #f6eeea 36%, #f6eeea 45%, white 46%, white 49%, transparent 50%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, #f6eeea 6%, #f6eeea 15%, white 16%, white 20%, #f6eeea 21%, #f6eeea 30%, white 31%, white 35%, #f6eeea 36%, #f6eeea 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size:100px 50px;*/
+}
+
+
+header{
+  width: 100%;
+  height: 2em;
+  background-color: white;
+}
+
+.topCircle{
+  background-color: black;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  text-align: center;
+/*   display: flex;
+  justify-content: center;
+  align-items: center;*/
+  position: relative;
+  top: -1.4em;
+  margin: 0 auto;
+}
+
+#pageName{
+  color: white;
+  font-family: 'Sacramento', cursive;
+  font-size: 2.4em;
+  padding-top: .8em;
+}
+
+
+#splashOuter{
+  background-color: #f6eeea;
+  width: 100%;
+  height: 7em;
+  text-align: center;
+}
+
+#splashInner{
+  padding: 1em 14em;
+  height: 2em;
+  width: 50%;
+  text-align: center;
+}
+
+#splashText{
+  font-size: 3em;
+  text-align: center;
+}
+
+#splashTextSmall{
+  font-size: 2em;
+  text-align: right;
+  font-family: 'Sacramento', cursive;
+}
+
+.row{
+  width: 100%;
+  height: 20em;
+}
+
+.gutter{
+  height: 15em;
+  width: 5%;
+  float: left;
+  display: inline-block;
+}
+
+.box{
+  width: 30%;
+  height: 20em;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bigBox{
+  background-color: green;
+  width: 90%;
+  height: 18em;
+}
+
+.subtitle{
+  color: black;
+  text-align: left;
+  margin: 3px;
+}
+
+.rectangleTop{
+  width: 90%;
+  margin: 0 5% 2.5% 2.5%;
+  background-color: blue;
+  height: 8.5em;
+}
+
+.rectangleBottom{
+  width: 90%;
+  margin: 5% 0 2.5% 2.5%;
+  background-color: blue;
+  height: 8.5em;
+}
+
+.circle{
+  background-color: black;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.circle:hover {
+  border-radius: 0px;
+  transition:all .5s ease-in-out;
+}
+
+.circleContentFour{
+  padding-top: 30px;
+}
+
+.circleContentFive{
+  padding-top: 50px;
+  padding-right: 80px;
+}
+
+.circleContentSix{
+  padding-top: 88px;
+  padding-left: 80px;
+}
+
+.circleContentOne{
+  padding-top: 30px;
+}
+
+.circleContentTwo{
+  padding-top: 110px;
+}
+
+.circleContentThree{
+  padding-top: 10px;
+  padding-left: 0px;
+}
+
+
+#footer{
+  width: 100%;
+  height: 4em;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+
+}
+
+
+.quadOne{
+  background-image: url(../images/circles/circ_cityhall.png);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.cOne{
+  background-image: url(../images/circles/circ_australia.png);
+}
+
+.cTwo{
+  background-image: url(../images/circles/circle_rocks.png);
+
+}
+
+
+.cThree{
+  background-image: url(../images/circles/circle_books.png);
+}
+
+
+
+.cFour{
+  background-image: url(../images/circles/circle_malin.png);
+}
+
+.cFive{
+  background-image: url(../images/circles/circ_bird.png);
+
+}
+
+
+.cSix{
+  background-image: url(../images/circles/circ_cityhall.png);
+}
+
+
+@media (max-width: 1015px){
+
+  .circle{
+    background-color: black;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+  }
+
+  .circleContentTwo{
+    padding-top: 70px;
+    padding-left: 30px;
+  }
+
+}
+
+@media (max-width: 750px){
+
+/*  .gutter{
+    visibility: hidden;
+  }
+
+  .row{
+    visibility: hidden;
+  }*/
+
+  .smallRow{
+    width: 100%;
+    height: 10em;
+  }
+
+  .box{
+    width: 30%;
+    height: 8em;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}
+
+
+/*mobile*/
+
+@media (max-width: 420px) and (orientation: portrait) {
+  .fa{
+    color: white;
+    display: inline-block;
+    margin-top: 25px;
+  }
+
+  /*index*/
+  .row{
+    display: none;
+  }
+
+  .mobileRec{
+    text-align: center;
+  }
+
+  .smallCirc{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px 5px;
+    background-color: black;
+    display: inline-block;
+  }
+
+
+
+  .cOne{
+    background-image: url(../images/circles/circles/circ_korea.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .cTwo{
+    background-image: url(../images/circles/circ_bird.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cThree{
+    background-image: url(../images/circles/circ_australia.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cFour{
+    background-image: url(../images/circles/circ_boracay.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .cFive{
+    background-image: url(../images/circles/circ_newzealand.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .cSix{
+    background-image: url(../images/circles/circ_road.png);
+    background-position: center;
+    background-size: contain;
+  }
+
+
+  } /*end of query*/
