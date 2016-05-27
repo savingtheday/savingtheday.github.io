@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1em;
+  font-family: 'Raleway';
+  background-color: #262626;
+  color: #d9d9d9;
+}
+body {
+  margin: 0;
+}
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #EA3556;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #EA3556;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.313em;
+}
+h1 {
+  font-size: 3em;
+  margin: 0.563em 0;
+}
+h2 {
+  font-size: 2.25em;
+  margin: 0.625em 0;
+}
+h3 {
+  font-size: 1.5em;
+  margin: 1.313em 0;
+  display: inline-block;
+  margin: 1em 1em;
+}
+h4 {
+  font-size: 1.313em;
+  margin: 1.313em 0;
+}
+h5 {
+  font-size: 1.125em;
+  margin: 1.313em 0;
+  display: inline-block;
+  margin: .2em 1em;
+}
+h6 {
+  font-size: 1em;
+  margin: 0.75em 0;
+}
+.topImg{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.pinkText{
+  color: #EA3556;
+}
+.blueText{
+  color: #61D2D6;
+}
+.topBanner{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+  url('img/bg.png');
+  background-attachment: fixed;
+  background-position: center;
+  height: 36em;
+  text-align: center;
+  padding: 2em;
+
+}
+.content {
+  font-size: 1.5rem;
+  color: #262626;
+  background-size: 49% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.separator {
+  font-size: 1.5rem;
+  padding: .1em 0;
+  text-align: center;
+}
+.right {
+  padding: 1.618em 6.472em 3.236em 50%;
+  background-position: 0 50%;
+  background-size: contain;
+}
+.illustration_01 {
+  background-color: #EDE5E2;
+  background-image: url("img/map.svg");
+}
+.illustration_03 {
+  background-color: #EDE5E2;
+  background-image: url("img/deer.svg");
+  background-size: 40%;
+}
+.icon{
+  margin: 1em;
+  height: 3em;
+}
+.left {
+  padding: 1.618em 50% 3.236em 6.472em;
+  background-position: 110% 10%;
+  background-size: 40% contain;
+}
+.illustration_02 {
+  background-color: #262626;
+  color: #EDE5E2;
+  background-image: url("img/tattoo.svg");
+}
+.fa{
+  margin-right: .2em;
+  cursor: pointer;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.fa:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
