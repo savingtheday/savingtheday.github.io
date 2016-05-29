@@ -220,7 +220,7 @@ h6 {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 436px) {
   h3{
     font-size: 1em;
     margin: .3em;
@@ -256,3 +256,53 @@ h6 {
   }
 }
 
+@media only screen and (max-width: 376px) {
+  h5{
+    font-size: .8em;
+    margin: .2em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  h5{
+    font-size: .8em;
+    margin: .2em;
+  }
+  h3{
+    font-size: .8em;
+    margin: .2em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  .topBanner{
+    height: 15em;
+  }
+  #map{
+    background-image: url("img/map.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left;
+    width: 4em;
+    height: 7em;
+  }
+  #tinyBird{
+    width: 8em;
+    height: 8em;
+    margin-left: 1em;
+    margin-bottom: -5em;
+    position: relative;
+    top: -4em;
+  }
+  #tinyDeer{
+    width: 8em;
+    height: 8em;
+    margin-left: 1em;
+    margin-bottom: -5em;
+    position: relative;
+    top: -4em;
+  }
+}
